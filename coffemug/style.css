@@ -1,0 +1,108 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+ .box{
+    margin: 10%;
+    width: 646px;
+    height: 420px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.coffeemug{
+    height: 418px;
+    width: 270px;
+}
+
+.content{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #6c7289;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+#title{
+    width: 80%;
+    font-size: 18px;
+    margin: 5px 17px;
+    letter-spacing: 5px;
+}
+
+.heading{
+    color:black;
+    margin: 5px 17px;
+    font-size: 32px;
+}
+
+.text{
+    width: 80%;
+    font-size: 18px;
+    margin: 5px 17px;
+}
+
+.price{
+    margin: 19px;
+}
+
+.rprice{
+    color: #3c8067;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.wprice{
+    font-size:16px;
+    color:#6c7289;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+
+/* 
+button{
+    background-color: #3c8067;
+    color: white;
+    width:180px ;
+    border: none;
+    margin: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 7px;
+    align-self: center;
+    text-decoration: none;
+}
+ */
+ .btn{
+    margin: 7px  ;
+    padding: 10px;
+    width: 200px;
+    background-color: #35705A;
+    border-radius: 15px;
+    align-self: center;
+    border: 0;
+    cursor: pointer;
+    color: #fff ;
+    font-size: 18px;
+}
+.btnimg{
+    margin-right: 6px;
+}
+
+.text2{
+    color: #fff;
+}
+

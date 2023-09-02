@@ -1,0 +1,62 @@
+
+
+
+img{
+    width: 333px;
+    height: 240px;
+    border-radius: 8px;
+    
+}
+
+.thumbnail{
+    width: 335px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 370px;
+    font-family: sans-serif;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 8px 8px 3px rgb(202, 199, 199);
+}
+
+#course{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#price{
+    color: #6674cc;
+    font-weight: 700;
+    margin: 1px;
+    
+}
+
+#orgPrice{
+    color: rgb(93, 92, 92);
+    font-weight: 700;
+    margin: 1px;
+    
+}
+
+#discount{
+    background-color: rgb(29, 209, 161);
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    margin: 2px 5px 2px 2px;
+    border-radius: 3px;
+    padding: 3px;
+}
+.money{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+
+hr{
+    width: 277px;
+    margin-bottom: 4%;
+    margin-left: 0%;
+}
